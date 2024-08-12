@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cursor{
+    height: 28px;
+    width: 28px;
+    mix-blend-mode: difference;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.1s;
+}
+
+h1{
+    font-size: 9vw;
+    font-weight: 900;
+
+}
